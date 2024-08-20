@@ -1,0 +1,17 @@
+{{ $series := slice }}
+{{ if isset .Params "series" }}
+  {{ $series = (where .Site.Pages ".Params.series" "eq" .Params.series).ByParam "date" }}
+  {{ $has_series := $series | len }}
+  {{ if gt $has_series 1 }}
+  <div class="posts-series">
+    <strong>{{ .Params.series }}</strong>
+    <ul>
+      {{- range $series -}}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{- end -}}
+    </ul>
+  </div>
+  {{ end }}
+{{ end }}
