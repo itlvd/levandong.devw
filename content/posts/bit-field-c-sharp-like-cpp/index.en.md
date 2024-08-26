@@ -20,7 +20,7 @@ resources:
 lightgallery: true
 ---
 
-Using bit fields in C/C++ might be familiar to you. In C/C++, bit fields allow you to create multiple variables within a single byte, within the limits of the bit representation. Today, I’m sharing a similar technique for C#. It's important to note that this method doesn't exactly mirror C/C++ bit fields. Instead of optimizing variable size at runtime, it focuses on optimizing data storage. This post will guide you through this technique and compare it with C/C++.
+Using [bit fields in C/C++](https://www.levandong.com/en/bit-fields-trong-c-cpp) might be familiar to you. In C/C++, bit fields allow you to create multiple variables within a single byte, within the limits of the bit representation. Today, I’m sharing a similar technique for C#. It's important to note that this method doesn't exactly mirror C/C++ bit fields. Instead of optimizing variable size at runtime, it focuses on optimizing data storage. This post will guide you through this technique and compare it with C/C++.
 
 ## Theory
 
