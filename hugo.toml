@@ -1191,10 +1191,10 @@ enableEmoji = true
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
         enable = true
-        repo = "itlvd/levandong.com"
-        repoId = "R_kgDOKgNYdQ"
+        repo = "itlvd/levandong.dev"
+        repoId = "R_kgDOMl5GGA"
         category = "Comment"
-        categoryId = "DIC_kwDOKgNYdc4CgKfU"
+        categoryId = "DIC_kwDOMl5GGM4Ch8HU"
         mapping = "title"
         origin = "https://giscus.app" # FixIt NEW | 0.3.7 Or set it to your self-hosted domain
         strict = "0" # FixIt NEW | 0.2.18
